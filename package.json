@@ -1,0 +1,25 @@
+{ 
+  "name": "json-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js",
+    "json": "json-server db.json -p 3500 "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monewa/json.git/"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+      "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
+
